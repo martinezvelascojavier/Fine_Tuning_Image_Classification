@@ -1,7 +1,10 @@
 # Fine_Tuning_Image_Classification
+
+### Task Motivation
+
 The main assumption of this fine-tuning task is based on the fact that both cats and leopards, as well as dogs and wolfs, belong to the same animal families of species (Felidae and Canidae respectively). Therefore I assumed that due to their shared biological traits, a model that was trained using cats and dogs data; could be also used to achieve good performance on distinguising between leopards and wolfs, by performing PEFT to the original model through LoRA.
 
-### Task Description and Motivation
+### Task Description
 
 There would be two main steps during the homework:
 
